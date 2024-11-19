@@ -16,7 +16,8 @@
 // ------x--------x----------x------------x------ OPTAB ----------------x------------x----------------x-----------x
 
 // Structure for each opcode entry
-typedef struct {
+typedef struct 
+{
     char mnemonic[MAX_FIELD_LENGTH];
     int opcode;
 } optab_entry;
